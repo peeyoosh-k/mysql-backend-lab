@@ -1,0 +1,17 @@
+-- DESCRIBE students
++------------+--------------+------+-----+-------------------+-------------------+
+| Field      | Type         | Null | Key | Default           | Extra             |
++------------+--------------+------+-----+-------------------+-------------------+
+| student_id | int          | NO   | PRI | NULL              | auto_increment    |
+| full_name  | varchar(100) | NO   |     | NULL              |                   |
+| email      | varchar(150) | NO   | UNI | NULL              |                   |
+| created_at | timestamp    | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++------------+--------------+------+-----+-------------------+-------------------+
+
+-- SELECT students
++------------+------------+------------------+
+| student_id | full_name  | email            |
++------------+------------+------------------+
+|          1 | Asha Rao   | asha@example.com |
+|          2 | Ravi Singh | ravi@example.com |
++------------+------------+------------------+
