@@ -1,0 +1,20 @@
+# secrets - never commit these
+.env
+*.env
+config.properties
+application-local.properties
+credentials*
+
+# local files
+*.log
+*.bak
+*.tmp
+*.class
+*.jar
+target/
+out/
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
